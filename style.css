@@ -759,4 +759,5 @@ sub {
   pre code {
     white-space: pre-wrap;
   }
+  img[alt=image] { width: 200px; }
 }
