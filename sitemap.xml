@@ -5,8 +5,11 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://www.gaurangparkar.github.io./software.html</loc><lastmod>2025-07-12</lastmod><priority>1.0</priority></url>
+<url><loc>https://www.gaurangparkar.github.io./bibs.html</loc><lastmod>2025-07-12</lastmod><priority>1.0</priority></url>
 <url><loc>https://www.gaurangparkar.github.io./projects.html</loc><lastmod>2025-07-12</lastmod><priority>1.0</priority></url>
 <url><loc>https://www.gaurangparkar.github.io./interests.html</loc><lastmod>2025-07-12</lastmod><priority>1.0</priority></url>
+<url><loc>https://www.gaurangparkar.github.io./pubs.html</loc><lastmod>2025-07-12</lastmod><priority>1.0</priority></url>
 <url><loc>https://www.gaurangparkar.github.io./index.html</loc><lastmod>2025-07-12</lastmod><priority>1.0</priority></url>
+<url><loc>https://www.gaurangparkar.github.io./bibs.html</loc><lastmod>2025-07-12</lastmod><priority>1.0</priority></url>
 <url><loc>https://www.gaurangparkar.github.io./books.html</loc><lastmod>2025-07-12</lastmod><priority>1.0</priority></url>
 </urlset>
