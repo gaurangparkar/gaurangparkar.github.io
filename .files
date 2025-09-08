@@ -1,8 +1,11 @@
 ./pubs.bib
 ./accidental_crossing.jpg
+./webgen.sh
 ./BR_iso.png
+./kls.png
 ./software.md
 ./cv_may2024.pdf
+./physics_res.md
 ./bibs.html
 ./bibliography.tex
 ./projects.md
@@ -11,10 +14,14 @@
 ./thesis_masters.pdf
 ./PaperFig_ReV_6740.png
 ./pubs.html
+./selected
 ./index.md
+./teaching.md
 ./style.css
 ./bibs.md
+./MERA_mod.png
 ./PaperFig_ReV_7825.png
+./gradtalk.pdf
 ./PaperFig_ReV_7825.pdf
 ./books.md
 ./bibs.pdf
