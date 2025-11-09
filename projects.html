@@ -5,11 +5,31 @@
 	<link rel='stylesheet' type='text/css' href='style.css'>
 </head>
 <h1 id="research">Research</h1>
+<p>Find my <a href="thesis_masters.pdf">Masters thesis</a> and <a href="https://inspirehep.net/files/34a1be4fa827574846fa06c7fd9a3259">PhD thesis</a>.</p>
 <p>I have a broad interest in quantum systems and quantum field theory. Most of my
 research has revolved around strongly correlated quantum systems and numerical
 methods to extract properties of them. </p>
-<p>Find my <a href="thesis_masters.pdf">Masters thesis</a> and <a href="https://inspirehep.net/files/34a1be4fa827574846fa06c7fd9a3259">PhD thesis</a>.</p>
-<h3 id="peer-reviewed-works">Peer reviewed works</h3>
+<h3 id="synopsis-of-my-phd-work">Synopsis of my PhD work</h3>
+<p>The theory of quantum electrodynamics has been one of the most successful theories of physics in the 20th century. 
+It describes how light and matter interact and is the first theory where quantum mechanics and special relativity have been unified.
+It describes physics outside of an atomic nuclii.
+However, a description of what goes inside an atomic nucleus is more complicated.
+The widely accepted theory is that the interactions inside the nucleus are governed by the strong force described by a theory called Quantum Chromodynamics (QCD). 
+QCD describes interactions between quarks and gluons. At low temperatures, QCD is in the hadronic (protons and neutrons are common examples of hadrons) or confined phase. It is conjectured that as temperatures rise (about 155MeV) the quarks and gluons deconfine to form the <em>quark-gluon plasma</em> (QGP). 
+This confinement and deconfinement transition has been of great theoretical interest over the past three decades. It has been postulated that the QGP can studied experimentally in heavy ion collisions at Relativistic Heavy Ion Collider (<a href="https://en.wikipedia.org/wiki/Relativistic_Heavy_Ion_Collider">RHIC</a>) in Brookhaven National lab or CMS, ATLAS and ALICE at CERN. </p>
+<p><img src="./QCD-phase-diagram.png" alt="alt text 2" width="600"/>
+  <figcaption> Image taken from <a href="https://pos.sissa.it/256/074">here</a>.
+  </figcaption></p>
+<p>Calculating the properties of the QGP from first principles is quite challenging as the standard perturbative methods of computing the path integral fail due to strong coupling of QCD. 
+Thus, an effective field theory framework is used which describes the physics through the static quark anti-quark potential. 
+Due to advancement in computing power in recent years, lattice QCD simulations have achieved great success in understanding QCD in the strong coupling regime. 
+The basic idea of Lattice QCD is to use Monte-Carlo acceptance sampling to evaluate the path integral and compute correlation functions. 
+One cannot however, do this in real-time as the complex probability weight makes Monte-Carlo sampling hard. 
+Thus, these calculations are performed in <em>Euclidean</em> or <em>Imaginary</em> time. 
+One can then compute real-time properties from the Euclidean correlator through the Spectral function. 
+However, computation of this spectral function from a finite set of noisy data points is an ill-posed inverse problem.
+My PhD thesis revolves around trying to address this ill-posed problem and discusses pathways towards resolving the puzzle of the static quark potential.</p>
+<h3 id="highlights-from-peer-reviewed-works">Highlights from peer reviewed works</h3>
 <h4 id="heavy-quark-potential-on-hisq-lattices">Heavy Quark Potential On HISQ Lattices:</h4>
 <p>The interactions of heavy quark and anti-quark pair are essential in understanding the primordial state of matter created in heavy-ion collisions, the <a href="https://en.wikipedia.org/wiki/Quark%E2%80%93gluon_plasma">quark-gluon plasma </a>. These interactions can be studied through a complex potential between these static colour sources in the presence of a thermal medium. Together with my supervisor Alexander Rothkopf, Rasmus Larsen (postdoc at University of Stavanger) and colleagues at the HotQCD collaboration we studied this potential using lattice QCD simulations using the Highly Improved Staggered Quark(HISQ) action. We computed the Wilson Line correlator in Coulomb gauge and extracted the potential using four different methods; Gaussian fits, HTL-inspired fits, the Pade and Bayesian reconstruction, all having a different set of assumptions. The BR-method was rendered inapplicable due to the presence of non-monotonicity in effective masses at higher temperatures. We found that contrary to previous studies, the real-part of the potential showed no temperature dependence from all methods except for the HTL-inspired fits. Check out the <a href="https://arxiv.org/pdf/2110.11659">full manuscript</a> for more details.</p>
 <p><img src="PaperFig_ReV_6740.png" alt="alt text" width="350"/> <img src="PaperFig_ReV_7825.png" alt="alt 2" width="350"/></p>
@@ -21,7 +41,7 @@ methods to extract properties of them. </p>
 <p><img src="accidental_crossing.jpg" alt="alt 3" width="650"/> </p>
 <h3 id="other-projects">Other projects</h3>
 <h4 id="tensor-networks-and-mera">Tensor Networks and MERA:</h4>
-<p>Tensor network states are wave functions used in the study of quantum many body systems. 
+<p>Tensor network states are wave functions of quantum many body wave functions used in the study of quantum many body systems. 
 They have become powerful tools to analyse low energy properties of many body systems on a lattice. 
 One such tensor network method is called the Multi-scale Entanglement Renormalization Ansatz (MERA). As the name suggests MERA is a renormalization group method to extract properties of many body systems.
 I implemented a modified MERA to extract central charge and scaling dimensions of a 1D bilinear biquadratic critical spin chain. Check out the <a href="gradtalk.pdf">slides</a> of a presentation that I gave during a gradtalk seminar at Stony Brook University.</p>
